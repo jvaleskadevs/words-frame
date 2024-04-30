@@ -6,7 +6,7 @@ import {
   ValidateFramesMessageInput,
   ValidateFramesMessageOutput,
 } from '@airstack/frames';
-import { toHex } from 'viem';
+import { fromBytes } from 'viem';
 import { URL } from '../../config';
 import { Errors } from '../../errors';
 import { WORDS } from '../../words';
@@ -33,7 +33,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   let image = URL;
   let game = true;
   if (action?.buttonIndex === 1) {
-    const text = toHex(action?.inputText);
+    const text = fromBytes(action?.inputText, 'string');
     if (text) { 
       console.log(text);  
       console.log(WORDS.includes(text));
@@ -45,6 +45,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   } else {
     image += '/game.jpg';
   }
+  console.log(image);
  
   return new NextResponse(getFrameHtmlResponse({
     buttons: [
@@ -56,7 +57,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       src: image, 
       aspectRatio: '1:1' 
     },
-    input: { text: 'Your word...' },
+    input: game ? { text: 'Your word...' } : undefined,
     postUrl: `${URL}/api/frame`
   }));
 }
