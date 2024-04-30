@@ -22,7 +22,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   }); 
   
   if (!isValid) return new NextResponse(Errors.NoValidMessage);
-  if (!message.following || !message.liked) return new NextResponse(Errors.NoValidMessage);
+  //if (!message.following || !message.liked) return new NextResponse(Errors.NoValidMessage);
 
   const fid: number | undefined = msg?.data?.fid || undefined;
   const action = msg?.data?.frameActionBody || undefined;
