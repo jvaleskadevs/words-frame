@@ -7,13 +7,6 @@
   resolved "https://registry.yarnpkg.com/@adraffy/ens-normalize/-/ens-normalize-1.10.0.tgz#d2a39395c587e092d77cbbc80acf956a54f38bf7"
   integrity sha512-nA9XHtlAkYfJxY7bce8DcN7eKxWWCWkU+1GR9d+U6MbNpfwQp8TI7vqOsBsMcHoT4mBu2kypKoSKnghEzOOq5Q==
 
-"@airstack/airstack-react@^0.6.3":
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/@airstack/airstack-react/-/airstack-react-0.6.3.tgz#b40e8d9f6e9f43a137476a7bcb6231b5d73d6372"
-  integrity sha512-DrWWTZkGXPxL86HB0o65dFBqqIz4crWE9nENYneSoXCWUh7wQFi4MdzLia8b2eFzJUliAJTwxLjBT8zWr+kSqQ==
-  dependencies:
-    graphql "16.6.0"
-
 "@airstack/frames@^1.1.5":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@airstack/frames/-/frames-1.1.5.tgz#2bb3aab9a1582afe8270571afbd78796613883f2"
@@ -755,11 +748,6 @@ graphql@14:
   integrity sha512-l0xWZpoPKpppFzMfvVyFmp9vLN7w/ZZJPefUicMCepfJeQ8sMcztloGYY9DfjVPo6tIUDzU5Hw3MUbIjj9AVVA==
   dependencies:
     iterall "^1.2.2"
-
-graphql@16.6.0:
-  version "16.6.0"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.6.0.tgz#c2dcffa4649db149f6282af726c8c83f1c7c5fdb"
-  integrity sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==
 
 graphql@16.7.1:
   version "16.7.1"

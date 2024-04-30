@@ -1,4 +1,4 @@
-import { getFrameHtmlResponse } from '@coinbase/onchainkit/frame';
+import { FrameRequest, getFrameMessage, getFrameHtmlResponse } from '@coinbase/onchainkit/frame'; 
 import { NextRequest, NextResponse } from 'next/server';
 import {
   init,
@@ -9,46 +9,47 @@ import {
 import { toHex } from 'viem';
 import { URL } from '../../config';
 import { Errors } from '../../errors';
+import { WORDS } from '../../words';
 
 init(process.env.NEXT_PUBLIC_AIRSTACK_API_KEY ?? '');
 
 async function getResponse(req: NextRequest): Promise<NextResponse> {
   const body: ValidateFramesMessageInput = await req.json();
-  const { isValid, message } = await validateFramesMessage(body);
+  const { isValid: _, message: msg } = await validateFramesMessage(body);
+  
+  const { isValid, message } = await getFrameMessage(body as FrameRequest, {
+    neynarApiKey: process.env.NEXT_PUBLIC_NEYNAR_API_KEY 
+  }); 
   
   if (!isValid) return new NextResponse(Errors.NoValidMessage);
+  if (!message.following || !message.liked) return new NextResponse(Errors.NoValidMessage);
 
-  const fid: number | undefined = message?.data?.fid || undefined;
-  const action = message?.data?.frameActionBody || undefined;
+  const fid: number | undefined = msg?.data?.fid || undefined;
+  const action = msg?.data?.frameActionBody || undefined;
   
-  console.log(toHex(action?.castId?.hash ?? ''));
-  
-  const text = action?.inputText?.[0] || '';
- 
+  //console.log(toHex(action?.castId?.hash ?? ''));
+  console.log(msg);
+
+  let image = URL;
   if (action?.buttonIndex === 1) {
-    console.log(fid);
+    const text = toHex(action?.inputText);
+    console.log(text);    
+    console.log(WORDS.includes(text));
+    image += WORDS.includes(text) ? '/success.png' : '/fail.png';
   }
  
   return new NextResponse(getFrameHtmlResponse({
     buttons: [
       {
-        label: 'Press me'
-      },
-      {
-        action: 'link',
-        label: 'View J. Valeska',
-        target: 'https://warpcast.com/@j-valeska'
+        label: 'Check Word'
       }
     ],
-    image: {
-      src: `${URL}/intro.png`,
-      aspectRatio: '1:1'
+    image: { 
+      src: image, 
+      aspectRatio: '1:1' 
     },
-    postUrl: `${URL}/api/frame`/*,
-    state: {
-      page: 0,
-      time: new Date().toISOString()
-    }*/
+    input: { text: 'Your word...' },
+    postUrl: `${URL}/api/frame`
   }));
 }
 
