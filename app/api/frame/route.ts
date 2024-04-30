@@ -37,7 +37,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     if (text) { 
       console.log(text);  
       //console.log(WORDS.includes(text));
-      image += WORDS.includes(text) ? '/success.png' : '/fail.png';
+      image += WORDS.includes(text.toLowerCase()) ? '/success.png' : '/fail.png';
       game = false;
     } else {
       image += '/game.jpg';
