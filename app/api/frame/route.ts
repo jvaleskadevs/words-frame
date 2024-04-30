@@ -31,17 +31,25 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   console.log(msg);
 
   let image = URL;
+  let game = true;
   if (action?.buttonIndex === 1) {
     const text = toHex(action?.inputText);
-    console.log(text);    
-    console.log(WORDS.includes(text));
-    image += WORDS.includes(text) ? '/success.png' : '/fail.png';
+    if (text) { 
+      console.log(text);  
+      console.log(WORDS.includes(text));
+      image += WORDS.includes(text) ? '/success.png' : '/fail.png';
+      game = false;
+    } else {
+      image += '/game.jpg';
+    }
+  } else {
+    image += '/game.jpg';
   }
  
   return new NextResponse(getFrameHtmlResponse({
     buttons: [
       {
-        label: 'Check Word'
+        label: game ? 'Check word' : 'Back'
       }
     ],
     image: { 
