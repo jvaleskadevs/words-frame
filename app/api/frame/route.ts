@@ -50,7 +50,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   return new NextResponse(getFrameHtmlResponse({
     buttons: [
       {
-        label: game ? 'Check word' : 'Back'
+        label: game ? 'Check word 🔎️' : 'Back 🔙️'
       }
     ],
     image: { 

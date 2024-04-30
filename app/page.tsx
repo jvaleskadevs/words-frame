@@ -9,7 +9,7 @@ const image = `${URL}/game.jpg`;
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Check Word'
+      label: 'Check Word 🔎️'
     }
   ],
   image: { 
