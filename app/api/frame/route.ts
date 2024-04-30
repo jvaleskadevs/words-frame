@@ -22,13 +22,13 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   }); 
   
   if (!isValid) return new NextResponse(Errors.NoValidMessage);
-  //if (!message.following || !message.liked) return new NextResponse(Errors.NoValidMessage);
+  if (!message.liked) return new NextResponse(Errors.NoValidMessage);
 
   const fid: number | undefined = msg?.data?.fid || undefined;
   const action = msg?.data?.frameActionBody || undefined;
   
   //console.log(toHex(action?.castId?.hash ?? ''));
-  console.log(msg);
+  //console.log(msg);
 
   let image = URL;
   let game = true;
@@ -36,7 +36,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     const text = fromBytes(action?.inputText, 'string');
     if (text) { 
       console.log(text);  
-      console.log(WORDS.includes(text));
+      //console.log(WORDS.includes(text));
       image += WORDS.includes(text) ? '/success.png' : '/fail.png';
       game = false;
     } else {
@@ -45,7 +45,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   } else {
     image += '/game.jpg';
   }
-  console.log(image);
+  //console.log(image);
  
   return new NextResponse(getFrameHtmlResponse({
     buttons: [
