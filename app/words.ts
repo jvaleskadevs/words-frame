@@ -1,4 +1,18 @@
 export const WORDS = [
+  "culture",
+  "art",
+  "economics",
+  "education",
+  "security",
+  "community",
+  "freedom",
+  "events",
+  "social",
+  "gaming"
+];
+
+/*
+export const WORDS = [
   "original",
   "creation",
   "vanguard",
@@ -12,3 +26,4 @@ export const WORDS = [
   "quality",
   "innovation"
 ];
+*/
