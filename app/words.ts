@@ -1,4 +1,19 @@
 export const WORDS = [
+  "hugs",
+  "artwork",
+  "collab",
+  "onchain",
+  "hugging",
+  "friend",
+  "forever",
+  "symbolic",
+  "nft",
+  "store"
+];
+
+/*
+
+export const WORDS = [
   "culture",
   "art",
   "economics",
@@ -11,7 +26,7 @@ export const WORDS = [
   "gaming"
 ];
 
-/*
+
 export const WORDS = [
   "original",
   "creation",
