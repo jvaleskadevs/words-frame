@@ -1,4 +1,18 @@
 export const WORDS = [
+  "magician",
+  "sorcerer",
+  "mage",
+  "wizard",
+  "cast",
+  "magic",
+  "spell",
+  "witch",
+  "warlock",
+  "alchemist"
+];
+
+/*
+export const WORDS = [
   "hugs",
   "artwork",
   "collab",
@@ -11,7 +25,6 @@ export const WORDS = [
   "store"
 ];
 
-/*
 
 export const WORDS = [
   "culture",
