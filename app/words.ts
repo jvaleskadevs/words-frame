@@ -1,4 +1,18 @@
 export const WORDS = [
+  "onchain",
+  "based",
+  "building",
+  "future",
+  "vibes",
+  "summer",
+  "builders",
+  "amazing",
+  "blockchain",
+  "party"
+];
+
+/*
+export const WORDS = [
   "magician",
   "sorcerer",
   "mage",
@@ -11,7 +25,7 @@ export const WORDS = [
   "alchemist"
 ];
 
-/*
+
 export const WORDS = [
   "hugs",
   "artwork",
