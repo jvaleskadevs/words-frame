@@ -1,4 +1,30 @@
 export const WORDS = [
+  "public",
+  "society",
+  "progress",
+  "fairness",
+  "equality",
+  "onchain",
+  "building",
+  "respect",
+  "contribution",
+  "community",
+  "love",
+  "goods",
+  "social",
+  "future",
+  "liberty",
+  "creativity",
+  "revolution",
+  "inclusivity",
+  "peace",
+  "collaboration",
+  "decentralization"
+];
+
+/*
+
+export const WORDS = [
   "pizza",
   "pixel",
   "master",
@@ -10,8 +36,6 @@ export const WORDS = [
   "power",
   "fire"
 ];
-
-/*
 
 export const WORDS = [
   "onchain",
