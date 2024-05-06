@@ -1,4 +1,19 @@
 export const WORDS = [
+  "pizza",
+  "pixel",
+  "master",
+  "diamond",
+  "nature",
+  "network",
+  "water",
+  "special",
+  "power",
+  "fire"
+];
+
+/*
+
+export const WORDS = [
   "onchain",
   "based",
   "building",
@@ -11,7 +26,6 @@ export const WORDS = [
   "party"
 ];
 
-/*
 export const WORDS = [
   "magician",
   "sorcerer",
