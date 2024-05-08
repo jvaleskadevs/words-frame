@@ -1,4 +1,21 @@
 export const WORDS = [
+  "tattoo",
+  "motion",
+  "paint",
+  "photo",
+  "graffiti",
+  "ceramics",
+  "sculpture",
+  "graphics",
+  "drawing",
+  "film",
+  "animation",
+  "print"
+];
+
+/*
+
+export const WORDS = [
   "public",
   "society",
   "progress",
@@ -21,8 +38,6 @@ export const WORDS = [
   "collaboration",
   "decentralization"
 ];
-
-/*
 
 export const WORDS = [
   "pizza",
