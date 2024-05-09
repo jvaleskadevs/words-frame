@@ -9,15 +9,17 @@ const image = `${URL}/game.jpg`;
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Check Word 🔎️'
+      label: 'Start 🔎️'
     }
   ],
   image: { 
     src: image, 
     aspectRatio: '1:1' 
   },
-  input: { text: 'Your word...' },
-  postUrl: `${URL}/api/frame`
+  postUrl: `${URL}/api/frame`,
+  state: {
+    game: 1
+  }
 });
 
 export const metadata: Metadata = {

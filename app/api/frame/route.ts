@@ -7,6 +7,7 @@ import {
   ValidateFramesMessageOutput,
 } from '@airstack/frames';
 import { fromBytes } from 'viem';
+import { deserializeState } from "../../lib/utils";
 import { URL } from '../../config';
 import { Errors } from '../../errors';
 import { WORDS } from '../../words';
@@ -29,28 +30,39 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   
   //console.log(toHex(action?.castId?.hash ?? ''));
   //console.log(msg);
+  const state = deserializeState((action?.state ?? []) as Uint8Array);
+  console.log(state);
 
   let image = URL;
   let game = true;
-  if (action?.buttonIndex === 1) {
+  if (action?.buttonIndex === 2) {
     const text = fromBytes(action?.inputText, 'string');
     if (text) { 
-      console.log(text);  
-      //console.log(WORDS.includes(text));
       image += WORDS.includes(text.toLowerCase()) ? '/success.png' : '/fail.png';
       game = false;
     } else {
-      image += '/game.jpg';
+      image = `/game_${state?.game ?? 'last'}.jpg`
     }
+  } else if (action?.buttonIndex === 1) {
+    state.game--;
+    image = `/game_${state?.game ?? 'last'}.jpg`
+  } else if (action?.buttonIndex === 3) {
+    state.game++;
+    image = `/game_${state?.game ?? 'last'}.jpg`
   } else {
-    image += '/game.jpg';
+    image = `/game_${state?.game ?? 'last'}.jpg`
   }
-  //console.log(image);
  
   return new NextResponse(getFrameHtmlResponse({
     buttons: [
       {
+        label: 'Previous ⏪️'
+      },
+      {
         label: game ? 'Check word 🔎️' : 'Back 🔙️'
+      },
+      {
+        label: 'Next ⏩️'
       }
     ],
     image: { 
@@ -58,7 +70,10 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       aspectRatio: '1:1' 
     },
     input: game ? { text: 'Your word...' } : undefined,
-    postUrl: `${URL}/api/frame`
+    postUrl: `${URL}/api/frame`,
+    state: {
+      game: state?.game ?? 0
+    }
   }));
 }
 
