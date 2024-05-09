@@ -1,4 +1,25 @@
 export const WORDS = [
+  "human",
+  "rights",
+  "freedom",
+  "peace",
+  "assembly",
+  "speech",
+  "equality",
+  "work",
+  "movement",
+  "privacy",
+  "belief",
+  "press",
+  "education",
+  "asylum",
+  "dignity",
+  "expression"
+];
+
+/*
+
+export const WORDS = [
   "tattoo",
   "motion",
   "paint",
@@ -12,8 +33,6 @@ export const WORDS = [
   "animation",
   "print"
 ];
-
-/*
 
 export const WORDS = [
   "public",
