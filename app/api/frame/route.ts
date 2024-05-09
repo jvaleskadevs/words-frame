@@ -10,7 +10,7 @@ import { fromBytes } from 'viem';
 import { deserializeState } from "../../lib/utils";
 import { URL } from '../../config';
 import { Errors } from '../../errors';
-import { WORDS, GAMES, TOTAL_GAMES } from '../../words';
+import { GAMES, TOTAL_GAMES } from '../../words';
 
 init(process.env.NEXT_PUBLIC_AIRSTACK_API_KEY ?? '');
 
@@ -34,13 +34,19 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   console.log(state);
   
   let game = state?.game ?? 'last';
+  let words = state?.words ?? [];
 
   let image = '';
   let isResolving = true;
   if (action?.buttonIndex === 2) {
-    const text = fromBytes(action?.inputText, 'string');
+    const text = fromBytes(action?.inputText, 'string').toLowerCase();
     if (text) { 
-      image += GAMES[game].includes(text.toLowerCase()) ? '/success.png' : '/fail.png';
+      if (GAMES[game].includes(text)) {
+        words.push(text);
+        image = words.length === GAMES[game].length ? '/solved.png' : '/success.png'; 
+      } else {
+        image = '/fail.png';
+      }
       isResolving = false;
     } else {
       image = `/game_${game}.jpg`;
@@ -74,7 +80,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     input: !isResolving ? { text: 'Your word...' } : undefined,
     postUrl: `${URL}/api/frame`,
     state: {
-      game
+      game,
+      words
     }
   }));
 }
