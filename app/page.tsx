@@ -9,7 +9,13 @@ const image = `${URL}/game_last.jpg`;
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Start 🔎️'
+      label: 'Previous ⏪️'
+    },
+    {
+      label: 'Check word 🔎️'
+    },
+    {
+      label: 'Next ⏩️'
     }
   ],
   image: { 
@@ -18,7 +24,7 @@ const frameMetadata = getFrameMetadata({
   },
   postUrl: `${URL}/api/frame`,
   state: {
-    game: 1
+    game: 0
   }
 });
 

@@ -10,7 +10,7 @@ import { fromBytes } from 'viem';
 import { deserializeState } from "../../lib/utils";
 import { URL } from '../../config';
 import { Errors } from '../../errors';
-import { WORDS } from '../../words';
+import { WORDS, GAMES, TOTAL_GAMES } from '../../words';
 
 init(process.env.NEXT_PUBLIC_AIRSTACK_API_KEY ?? '');
 
@@ -32,25 +32,27 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   //console.log(msg);
   const state = deserializeState((action?.state ?? []) as Uint8Array);
   console.log(state);
+  
+  let game = state?.game ?? 'last';
 
-  let image = URL;
-  let game = true;
+  let image = '';
+  let isResolving = true;
   if (action?.buttonIndex === 2) {
     const text = fromBytes(action?.inputText, 'string');
     if (text) { 
-      image += WORDS.includes(text.toLowerCase()) ? '/success.png' : '/fail.png';
-      game = false;
+      image += GAMES[game].includes(text.toLowerCase()) ? '/success.png' : '/fail.png';
+      isResolving = false;
     } else {
-      image = `/game_${state?.game ?? 'last'}.jpg`
+      image = `/game_${game}.jpg`;
     }
   } else if (action?.buttonIndex === 1) {
-    state.game--;
-    image = `/game_${state?.game ?? 'last'}.jpg`
+    game = game === 0 ? 0 : game - 1;
+    image = `/game_${game}.jpg`;
   } else if (action?.buttonIndex === 3) {
-    state.game++;
-    image = `/game_${state?.game ?? 'last'}.jpg`
+    game = game === TOTAL_GAMES ? TOTAL_GAMES : game + 1;
+    image = `/game_${game}.jpg`;
   } else {
-    image = `/game_${state?.game ?? 'last'}.jpg`
+    image = `/game_${game}.jpg`;
   }
  
   return new NextResponse(getFrameHtmlResponse({
@@ -59,20 +61,20 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         label: 'Previous ⏪️'
       },
       {
-        label: game ? 'Check word 🔎️' : 'Back 🔙️'
+        label: !isResolving ? 'Check word 🔎️' : 'Back 🔙️'
       },
       {
         label: 'Next ⏩️'
       }
     ],
     image: { 
-      src: image, 
+      src: URL + image, 
       aspectRatio: '1:1' 
     },
-    input: game ? { text: 'Your word...' } : undefined,
+    input: !isResolving ? { text: 'Your word...' } : undefined,
     postUrl: `${URL}/api/frame`,
     state: {
-      game: state?.game ?? 0
+      game
     }
   }));
 }
