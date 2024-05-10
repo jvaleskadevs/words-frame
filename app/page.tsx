@@ -4,20 +4,28 @@ import { URL } from './config';
 
 const title = 'Words Game';
 const description = 'Words Game by J.';
-const image = `${URL}/game.jpg`;
+const image = `${URL}/game_last.jpg`;
 
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Check Word 🔎️'
+      label: 'Previous ⏪️'
+    },
+    {
+      label: 'Check word 🔎️'
+    },
+    {
+      label: 'Next ⏩️'
     }
   ],
   image: { 
     src: image, 
     aspectRatio: '1:1' 
   },
-  input: { text: 'Your word...' },
-  postUrl: `${URL}/api/frame`
+  postUrl: `${URL}/api/frame`,
+  state: {
+    game: 0
+  }
 });
 
 export const metadata: Metadata = {

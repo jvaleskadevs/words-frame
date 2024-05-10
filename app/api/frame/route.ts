@@ -7,9 +7,10 @@ import {
   ValidateFramesMessageOutput,
 } from '@airstack/frames';
 import { fromBytes } from 'viem';
+import { deserializeState } from "../../lib/utils";
 import { URL } from '../../config';
 import { Errors } from '../../errors';
-import { WORDS } from '../../words';
+import { GAMES, TOTAL_GAMES } from '../../words';
 
 init(process.env.NEXT_PUBLIC_AIRSTACK_API_KEY ?? '');
 
@@ -29,36 +30,61 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   
   //console.log(toHex(action?.castId?.hash ?? ''));
   //console.log(msg);
+  const state = deserializeState((action?.state ?? []) as Uint8Array);
+  console.log(state);
+  
+  let game = state?.game ?? 'last';
+  let words = state?.words ?? [];
 
-  let image = URL;
-  let game = true;
-  if (action?.buttonIndex === 1) {
-    const text = fromBytes(action?.inputText, 'string');
+  let image = '';
+  let isResolving = true;
+  if (action?.buttonIndex === 2) {
+    const text = fromBytes(action?.inputText, 'string').toLowerCase();
     if (text) { 
-      console.log(text);  
-      //console.log(WORDS.includes(text));
-      image += WORDS.includes(text.toLowerCase()) ? '/success.png' : '/fail.png';
-      game = false;
+      if (GAMES[game].includes(text)) {
+        words.push(text);
+        image = words.length === GAMES[game].length ? '/solved.png' : '/success.png'; 
+      } else {
+        image = '/fail.png';
+      }
+      isResolving = false;
     } else {
-      image += '/game.jpg';
+      image = `/game_${game}.jpg`;
     }
+  } else if (action?.buttonIndex === 1) {
+    game = game === 0 ? 0 : game - 1;
+    words = [];
+    image = `/game_${game}.jpg`;
+  } else if (action?.buttonIndex === 3) {
+    game = game === TOTAL_GAMES ? TOTAL_GAMES : game + 1;
+    words = [];
+    image = `/game_${game}.jpg`;
   } else {
-    image += '/game.jpg';
+    image = `/game_${game}.jpg`;
   }
-  //console.log(image);
  
   return new NextResponse(getFrameHtmlResponse({
     buttons: [
       {
-        label: game ? 'Check word 🔎️' : 'Back 🔙️'
+        label: 'Previous ⏪️'
+      },
+      {
+        label: !isResolving ? 'Check word 🔎️' : 'Back 🔙️'
+      },
+      {
+        label: 'Next ⏩️'
       }
     ],
     image: { 
-      src: image, 
+      src: URL + image, 
       aspectRatio: '1:1' 
     },
-    input: game ? { text: 'Your word...' } : undefined,
-    postUrl: `${URL}/api/frame`
+    input: !isResolving ? { text: 'Your word...' } : undefined,
+    postUrl: `${URL}/api/frame`,
+    state: {
+      game,
+      words
+    }
   }));
 }
 

@@ -17,9 +17,24 @@ export const WORDS = [
   "expression"
 ];
 
-/*
-
-export const WORDS = [
+export const GAMES = [
+[
+  "experiment",
+  "new",
+  "previous",
+  "games",
+  "broke",
+  "beta",
+  "production",
+  "version",
+  "frame",
+  "next",
+  "may",
+  "test",
+  "words",
+  "something"
+], // 0
+[
   "tattoo",
   "motion",
   "paint",
@@ -32,9 +47,8 @@ export const WORDS = [
   "film",
   "animation",
   "print"
-];
-
-export const WORDS = [
+], // 0
+[
   "public",
   "society",
   "progress",
@@ -56,9 +70,8 @@ export const WORDS = [
   "peace",
   "collaboration",
   "decentralization"
-];
-
-export const WORDS = [
+], // 0
+[
   "pizza",
   "pixel",
   "master",
@@ -69,9 +82,8 @@ export const WORDS = [
   "special",
   "power",
   "fire"
-];
-
-export const WORDS = [
+], // 0
+[
   "onchain",
   "based",
   "building",
@@ -82,9 +94,8 @@ export const WORDS = [
   "amazing",
   "blockchain",
   "party"
-];
-
-export const WORDS = [
+], // 0
+[
   "magician",
   "sorcerer",
   "mage",
@@ -95,10 +106,8 @@ export const WORDS = [
   "witch",
   "warlock",
   "alchemist"
-];
-
-
-export const WORDS = [
+], // 0
+[
   "hugs",
   "artwork",
   "collab",
@@ -109,10 +118,8 @@ export const WORDS = [
   "symbolic",
   "nft",
   "store"
-];
-
-
-export const WORDS = [
+], // 1
+[
   "culture",
   "art",
   "economics",
@@ -123,10 +130,8 @@ export const WORDS = [
   "events",
   "social",
   "gaming"
-];
-
-
-export const WORDS = [
+], // 0
+[
   "original",
   "creation",
   "vanguard",
@@ -139,5 +144,7 @@ export const WORDS = [
   "highlights",
   "quality",
   "innovation"
-];
-*/
+]
+]
+
+export const TOTAL_GAMES = GAMES.length;
