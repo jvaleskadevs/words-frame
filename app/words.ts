@@ -35,6 +35,24 @@ export const GAMES = [
   "something"
 ], // 0
 [
+  "human",
+  "rights",
+  "freedom",
+  "peace",
+  "assembly",
+  "speech",
+  "equality",
+  "work",
+  "movement",
+  "privacy",
+  "belief",
+  "press",
+  "education",
+  "asylum",
+  "dignity",
+  "expression"
+],
+[
   "tattoo",
   "motion",
   "paint",
