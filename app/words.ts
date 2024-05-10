@@ -163,6 +163,6 @@ export const GAMES = [
   "quality",
   "innovation"
 ]
-]
+].reverse();
 
 export const TOTAL_GAMES = GAMES.length - 1;
