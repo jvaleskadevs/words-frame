@@ -23,6 +23,9 @@ const frameMetadata = getFrameMetadata({
     aspectRatio: '1:1' 
   },
   postUrl: `${URL}/api/frame`,
+  input: { 
+    text: 'Your word...' 
+  },
   state: {
     game: 0
   }
