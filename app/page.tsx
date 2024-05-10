@@ -25,9 +25,6 @@ const frameMetadata = getFrameMetadata({
   postUrl: `${URL}/api/frame`,
   input: { 
     text: 'Your word...' 
-  },
-  state: {
-    game: 0
   }
 });
 

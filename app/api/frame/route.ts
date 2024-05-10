@@ -37,7 +37,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   let words = state?.words ?? [];
 
   let image = '';
-  let isResolving = true;
+  let isResolving = false;
   if (action?.buttonIndex === 2) {
     const text = fromBytes(action?.inputText, 'string').toLowerCase();
     if (text) { 
@@ -47,16 +47,16 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       } else {
         image = '/fail.png';
       }
-      isResolving = false;
+      isResolving = true;
     } else {
       image = `/game_${game}.jpg`;
     }
   } else if (action?.buttonIndex === 1) {
-    game = game === TOTAL_GAMES ? TOTAL_GAMES : game + 1;
+    game = game === 0 ? 0 : game - 1;
     words = [];
     image = `/game_${game}.jpg`;
   } else if (action?.buttonIndex === 3) {
-    game = game === 0 ? 0 : game - 1;
+    game = game === TOTAL_GAMES ? TOTAL_GAMES : game + 1;
     words = [];
     image = `/game_${game}.jpg`;
   } else {
