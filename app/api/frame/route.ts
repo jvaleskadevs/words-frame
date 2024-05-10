@@ -41,7 +41,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   if (action?.buttonIndex === 2) {
     const text = fromBytes(action?.inputText, 'string').toLowerCase();
     if (text) { 
-      if (GAMES[game].includes(text)) {
+      if (GAMES[game-1].includes(text)) {
         words.push(text);
         image = words.length === GAMES[game].length ? '/solved.png' : '/success.png'; 
       } else {
