@@ -33,7 +33,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   const state = deserializeState((action?.state ?? []) as Uint8Array);
   console.log(state);
   
-  let game = state?.game ?? TOTAL_GAMES;
+  let game = state?.game ?? (TOTAL_GAMES-1);
   let words = state?.words ?? [];
 
   let image = '';
