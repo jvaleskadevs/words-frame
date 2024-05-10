@@ -19,6 +19,22 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "experiment",
+  "new",
+  "previous",
+  "games",
+  "broke",
+  "beta",
+  "production",
+  "version",
+  "frame",
+  "next",
+  "may",
+  "test",
+  "words",
+  "something"
+], // 0
+[
   "tattoo",
   "motion",
   "paint",
