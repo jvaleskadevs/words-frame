@@ -147,4 +147,4 @@ export const GAMES = [
 ]
 ]
 
-export const TOTAL_GAMES = GAMES.length;
+export const TOTAL_GAMES = GAMES.length - 1;
