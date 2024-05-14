@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "disease",
+  "fever",
+  "cold",
+  "drugs",
+  "symptom",
+  "prescription",
+  "illness",
+  "flu",
+  "cure",
+  "pain",
+  "diagnosis",
+  "treatment"
+],
+[
   "experiment",
   "new",
   "previous",
