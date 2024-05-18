@@ -19,6 +19,22 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "onchain",
+  "proof",
+  "record",
+  "memento",
+  "farcaster",
+  "memory",
+  "artwork",
+  "hugs",
+  "friendship",
+  "today",
+  "base",
+  "friend",
+  "protocol",
+  "cocreation"
+],
+[
   "disease",
   "fever",
   "cold",
