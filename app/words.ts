@@ -19,6 +19,22 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "build",
+  "builder",
+  "reward",
+  "based",
+  "base",
+  "nominate",
+  "appreciate",
+  "onchain",
+  "peer",
+  "social",
+  "game",
+  "farcaster",
+  "three",
+  "reward"
+],
+[
   "onchain",
   "proof",
   "record",
