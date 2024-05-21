@@ -19,6 +19,24 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "alfa",
+  "frens",
+  "art",
+  "contest",
+  "mint",
+  "race",
+  "artists",
+  "blue",
+  "green",
+  "degen",
+  "stream",
+  "flow",
+  "income",
+  "stake",
+  "sub",
+  "flow"
+],
+[
   "build",
   "builder",
   "reward",
