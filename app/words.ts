@@ -19,6 +19,22 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "hugs",
+  "art",
+  "alfafrens",
+  "improve",
+  "build",
+  "tech",
+  "human",
+  "life",
+  "positive",
+  "sum",
+  "progress",
+  "evolution",
+  "channel",
+  "free"
+],
+[
   "onchain",
   "gaias",
   "pet",
