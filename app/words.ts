@@ -19,6 +19,22 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "responsibility",
+  "communication",
+  "integrity",
+  "professionalism",
+  "creativity",
+  "networking",
+  "leadership",
+  "teamwork",
+  "initiative",
+  "adaptability",
+  "mentorship",
+  "innovation",
+  "collaboration",
+  "diversity"
+],
+[
   "hugs",
   "art",
   "alfafrens",
