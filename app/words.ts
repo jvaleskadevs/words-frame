@@ -19,6 +19,28 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "david",
+  "marcos",
+  "pedro",
+  "alex",
+  "vicente",
+  "lucia",
+  "alba",
+  "maria",
+  "marta",
+  "raquel",
+  "nicolas",
+  "pablo",
+  "nerea",
+  "andrea",
+  "samuel",
+  "oscar",
+  "tomas",
+  "adrian",
+  "julia",
+  "tamara"
+],
+[
   "responsibility",
   "communication",
   "integrity",
