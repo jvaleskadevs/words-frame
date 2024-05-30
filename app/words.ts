@@ -19,6 +19,28 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "pay",
+  "flow",
+  "jam",
+  "bull",
+  "run",
+  "fly",
+  "cast",
+  "code",
+  "law",
+  "alfa",
+  "warp",
+  "dapp",
+  "nft",
+  "tip",
+  "key",
+  "dip",
+  "dyor",
+  "full",
+  "rap",
+  "jack"
+],
+[
   "david",
   "marcos",
   "pedro",
