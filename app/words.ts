@@ -19,6 +19,30 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "onchain",
+  "summer",
+  "ceremony",
+  "jessepollak",
+  "wilsoncusack",
+  "willbinns",
+  "base",
+  "buildathon",
+  "kickoff",
+  "prizes",
+  "summit",
+  "basegod",
+  "stripe",
+  "shopify",
+  "farcaster",
+  "zora",
+  "fleek",
+  "nouns",
+  "aerodrome",
+  "synthetix",
+  "thirdweb",
+  "sponsors"
+],
+[
   "pay",
   "flow",
   "jam",
