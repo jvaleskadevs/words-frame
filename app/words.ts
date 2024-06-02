@@ -19,6 +19,24 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "realmadrid",
+  "league",
+  "champions",
+  "winner",
+  "fifteen",
+  "carvajal",
+  "courtouis",
+  "vinicius",
+  "dortmund",
+  "kroos",
+  "borussia",
+  "kobel",
+  "ancelotti",
+  "mendy",
+  "nacho",
+  "modric"
+],
+[
   "onchain",
   "summer",
   "ceremony",
