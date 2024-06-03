@@ -19,6 +19,28 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "celebrate",
+  "support",
+  "community",
+  "tribute",
+  "growing",
+  "together",
+  "honored",
+  "thanks",
+  "farcaster",
+  "degens",
+  "fox",
+  "builders",
+  "everyone",
+  "love",
+  "appreciate",
+  "artists",
+  "anons",
+  "detectives",
+  "fun",
+  "onchain"
+],
+[
   "realmadrid",
   "league",
   "champions",
