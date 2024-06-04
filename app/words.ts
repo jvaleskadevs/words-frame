@@ -19,6 +19,28 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "society",
+  "progress",
+  "freedom",
+  "work",
+  "revolution",
+  "technology",
+  "science",
+  "collab",
+  "democracy",
+  "rights",
+  "liberty",
+  "peace",
+  "love",
+  "joy",
+  "community",
+  "friendship",
+  "debate",
+  "diversity",
+  "unity",
+  "future"
+],
+[
   "celebrate",
   "support",
   "community",
