@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "optimism",
+  "retro",
+  "funding",
+  "round",
+  "apply",
+  "onchain",
+  "builders",
+  "reward",
+  "public",
+  "superchain",
+  "red",
+  "devs",
+  "artists",
+  "goods",
+  "support",
+  "grant",
+  "mission",
+  "collective"
+],
+[
   "society",
   "progress",
   "freedom",
