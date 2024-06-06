@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "hamlet",
+  "macbeth",
+  "romeo",
+  "othello",
+  "kinglear",
+  "juliet",
+  "horatio",
+  "ophelia",
+  "rosalind",
+  "caesar",
+  "cleopatra",
+  "antony",
+  "olivia",
+  "octavia",
+  "titania",
+  "caliban",
+  "puck",
+  "miranda"
+],
+[
   "optimism",
   "retro",
   "funding",
