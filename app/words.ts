@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "sunshine",
+  "detective",
+  "agent",
+  "blocks",
+  "little",
+  "shakespeare",
+  "inspect",
+  "insurance",
+  "mom",
+  "agency",
+  "special",
+  "onchain",
+  "alchemist",
+  "prince",
+  "william",
+  "books",
+  "creativity",
+  "community"
+],
+[
   "hamlet",
   "macbeth",
   "romeo",
