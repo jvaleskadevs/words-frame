@@ -19,6 +19,24 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "onchain",
+  "community",
+  "together",
+  "degen",
+  "blocks",
+  "agency",
+  "bounty",
+  "token",
+  "collab",
+  "earn",
+  "games",
+  "words",
+  "raindrop",
+  "daily",
+  "growing",
+  "cocreate"
+],
+[
   "sunshine",
   "detective",
   "agent",
