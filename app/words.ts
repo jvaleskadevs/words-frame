@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "sea",
+  "onchain",
+  "enjoy",
+  "everywhere",
+  "family",
+  "sunshine",
+  "beach",
+  "together",
+  "home",
+  "summer",
+  "wave",
+  "offchain",
+  "friends",
+  "blockmates",
+  "icecream",
+  "mountain",
+  "everyone",
+  "sunhat"
+],
+[
   "base",
   "god",
   "rules",
