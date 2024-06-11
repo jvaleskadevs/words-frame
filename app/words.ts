@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "cyberpunk",
+  "zelda",
+  "mario",
+  "sonic",
+  "wow",
+  "lol",
+  "pong",
+  "tetris",
+  "pacman",
+  "contra",
+  "gta",
+  "quake",
+  "defender",
+  "diablo",
+  "arkanoid",
+  "zerowing",
+  "darksouls",
+  "doom"
+],
+[
   "sea",
   "onchain",
   "enjoy",
