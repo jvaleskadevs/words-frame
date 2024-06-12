@@ -19,6 +19,28 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "smartwallet",
+  "paymaster",
+  "abstraction",
+  "account",
+  "sponsor",
+  "transaction",
+  "coinbase",
+  "onboard",
+  "massive",
+  "billion",
+  "summer",
+  "onchain",
+  "join",
+  "wave",
+  "contribute",
+  "cocreate",
+  "artist",
+  "builder",
+  "everyone",
+  "record"
+],
+[
   "cyberpunk",
   "zelda",
   "mario",
