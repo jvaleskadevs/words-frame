@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "onchain",
+  "wave",
+  "artists",
+  "canvas",
+  "colors",
+  "hands",
+  "contributors",
+  "choose",
+  "builder",
+  "everyone",
+  "summer",
+  "become",
+  "join",
+  "cocreation",
+  "massive",
+  "celebrate",
+  "moment",
+  "together"
+],
+[
   "smartwallet",
   "paymaster",
   "abstraction",
