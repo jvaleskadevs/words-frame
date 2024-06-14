@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "corner",
+  "offside",
+  "pass",
+  "goal",
+  "shot",
+  "kick",
+  "foul",
+  "score",
+  "header",
+  "tackle",
+  "defender",
+  "striker",
+  "goalkeeper",
+  "card",
+  "football",
+  "midfielder",
+  "penalty",
+  "referee"
+],
+[
   "onchain",
   "wave",
   "artists",
