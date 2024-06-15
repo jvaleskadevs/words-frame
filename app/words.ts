@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "hemp",
+  "wood",
+  "steel",
+  "iron",
+  "glass",
+  "silk",
+  "aluminum",
+  "leather",
+  "polyester",
+  "bronze",
+  "nylon",
+  "silver",
+  "brass",
+  "cotton",
+  "stone",
+  "gold",
+  "kevlar",
+  "grass"
+],
+[
   "corner",
   "offside",
   "pass",
