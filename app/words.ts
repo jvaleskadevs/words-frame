@@ -19,6 +19,24 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "onchain",
+  "blocks",
+  "launch",
+  "next",
+  "game",
+  "guide",
+  "beta",
+  "cheatsheet",
+  "feedback",
+  "points",
+  "tipping",
+  "degen",
+  "liquidity",
+  "pool",
+  "testers",
+  "week"
+],
+[
   "hemp",
   "wood",
   "steel",
