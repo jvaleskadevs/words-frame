@@ -39,6 +39,24 @@ export const GAMES = [
   "arch"
 ],
 [
+  "onchain",
+  "blocks",
+  "launch",
+  "next",
+  "game",
+  "guide",
+  "beta",
+  "cheatsheet",
+  "feedback",
+  "points",
+  "tipping",
+  "degen",
+  "liquidity",
+  "pool",
+  "testers",
+  "week"
+],
+[
   "hemp",
   "wood",
   "steel",
