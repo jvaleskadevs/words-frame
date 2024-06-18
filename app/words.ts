@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "tolerance",
+  "respect",
+  "inclusion",
+  "acceptance",
+  "empathy",
+  "human",
+  "equality",
+  "kindness",
+  "human",
+  "globe",
+  "society",
+  "love",
+  "everyone",
+  "sensitivity",
+  "cultures",
+  "harmony",
+  "solidarity",
+  "diversity"
+],
+[
   "fox",
   "colorful",
   "moon",

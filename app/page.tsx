@@ -4,7 +4,7 @@ import { URL } from './config';
 
 const title = 'Words Game';
 const description = 'Words Game by J.';
-const image = `${URL}/game_35.jpg`;
+const image = `${URL}/game_36.jpg`;
 
 const frameMetadata = getFrameMetadata({
   buttons: [
