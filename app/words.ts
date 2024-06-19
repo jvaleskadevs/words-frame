@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "private",
+  "group",
+  "testing",
+  "beta",
+  "feedback",
+  "started",
+  "future",
+  "vision",
+  "trial",
+  "progress",
+  "optimism",
+  "error",
+  "success",
+  "dreams",
+  "build",
+  "courage",
+  "game",
+  "together"
+],
+[
   "tolerance",
   "respect",
   "inclusion",
