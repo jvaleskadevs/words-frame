@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "beauty",
+  "sublime",
+  "radiant",
+  "euphoric",
+  "majestic",
+  "idyllic",
+  "powerful",
+  "aurora",
+  "blizzard",
+  "storm",
+  "scene",
+  "borealis",
+  "starry",
+  "night",
+  "purple",
+  "moon",
+  "deep",
+  "green"
+],
+[
   "private",
   "group",
   "testing",
