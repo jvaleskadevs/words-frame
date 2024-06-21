@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "foliage",
+  "tranquil",
+  "aromatic",
+  "waterfall",
+  "rhythm",
+  "whimsy",
+  "flowing",
+  "heal",
+  "natural",
+  "paradise",
+  "sky",
+  "spark",
+  "pulse",
+  "glitter",
+  "trees",
+  "flowers",
+  "rainbow",
+  "senses"
+],
+[
   "beauty",
   "sublime",
   "radiant",
