@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "kaleidoscopic",
+  "dazzling",
+  "crescendo",
+  "deafening",
+  "chaotic",
+  "disorienting",
+  "reverberating",
+  "awestruck",
+  "time",
+  "warping",
+  "machine",
+  "energy",
+  "explosion",
+  "air",
+  "blast",
+  "colorful",
+  "powerful",
+  "swirl"
+],
+[
   "foliage",
   "tranquil",
   "aromatic",
