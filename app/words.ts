@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "empathy",
+  "kindness",
+  "gratitude",
+  "resilience",
+  "creativity",
+  "genuine",
+  "curiosity",
+  "perseverance",
+  "courageus",
+  "wise",
+  "joyful",
+  "compassion",
+  "aligned",
+  "persistent",
+  "integrity",
+  "responsible",
+  "peace",
+  "love"
+],
+[
   "kaleidoscopic",
   "dazzling",
   "crescendo",
