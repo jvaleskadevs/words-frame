@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "melody",
+  "verdant",
+  "forest",
+  "foliage",
+  "magical",
+  "deep",
+  "dancing",
+  "fairy",
+  "night",
+  "lights",
+  "pond",
+  "arc",
+  "homes",
+  "trees",
+  "serenity",
+  "purple",
+  "depicting",
+  "enjoyment"
+],
+[
   "empathy",
   "kindness",
   "gratitude",
