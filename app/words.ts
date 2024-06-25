@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "cars",
+  "books",
+  "cities",
+  "movies",
+  "tricky",
+  "from",
+  "dark",
+  "game",
+  "replies",
+  "your",
+  "special",
+  "blockchain",
+  "win",
+  "goal",
+  "space",
+  "bloody",
+  "moons",
+  "planets"
+],
+[
   "melody",
   "verdant",
   "forest",
