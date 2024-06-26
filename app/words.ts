@@ -39,6 +39,26 @@ export const GAMES = [
   "sedan"
 ],
 [
+  "electric",
+  "hybrid",
+  "truck",
+  "suv",
+  "van",
+  "roadster",
+  "bike",
+  "coupe",
+  "mini",
+  "crossover",
+  "limousine",
+  "wagon",
+  "berline",
+  "fone",
+  "pickup",
+  "car",
+  "convertible",
+  "sedan"
+],
+[
   "melody",
   "verdant",
   "forest",
