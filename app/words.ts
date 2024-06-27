@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "socrates",
+  "faust",
+  "watson",
+  "karazamov",
+  "sherlock",
+  "quijote",
+  "sancho",
+  "dulcinea",
+  "holmes",
+  "dante",
+  "homero",
+  "odissey",
+  "anna",
+  "gray",
+  "dorian",
+  "hamlet",
+  "sawyer",
+  "karenina"
+],
+[
   "electric",
   "hybrid",
   "truck",
