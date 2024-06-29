@@ -19,6 +19,46 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "valhalla",
+  "fenrir",
+  "thor",
+  "asgard",
+  "loki",
+  "odin",
+  "mjolnir",
+  "hera",
+  "cerberus",
+  "hydra",
+  "cyclops",
+  "olympus",
+  "underworld",
+  "ambrosia",
+  "pandora",
+  "aletheia",
+  "ares",
+  "zeus"
+],
+[
+  "electric",
+  "hybrid",
+  "truck",
+  "suv",
+  "van",
+  "roadster",
+  "bike",
+  "coupe",
+  "mini",
+  "crossover",
+  "limousine",
+  "wagon",
+  "berline",
+  "fone",
+  "pickup",
+  "car",
+  "convertible",
+  "sedan"
+]
+[
   "victorian",
   "gothic",
   "real",
