@@ -57,7 +57,7 @@ export const GAMES = [
   "car",
   "convertible",
   "sedan"
-]
+],
 [
   "victorian",
   "gothic",
