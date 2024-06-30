@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "tired",
+  "game",
+  "words",
+  "just",
+  "mind",
+  "coming",
+  "done",
+  "quick",
+  "another",
+  "sorry",
+  "better",
+  "buys",
+  "day",
+  "one",
+  "onchain",
+  "building",
+  "magic",
+  "summer"
+],
+[
   "valhalla",
   "fenrir",
   "thor",
