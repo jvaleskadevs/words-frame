@@ -1,4 +1,4 @@
-export const WORDS = [
+vexport const WORDS = [
   "human",
   "rights",
   "freedom",
@@ -19,13 +19,24 @@ export const WORDS = [
 
 export const GAMES = [
 [
-  "sorry",
-  "I",
-  "know",
-  "what",
-  "you",
-  "are",
-  "doing"
+  "ledger",
+  "wallet",
+  "hash",
+  "blocks",
+  "trees",
+  "merkle",
+  "mint",
+  "gas",
+  "onchain",
+  "burn",
+  "dev",
+  "builder",
+  "token",
+  "code",
+  "contract",
+  "code",
+  "abi",
+  "log"
 ],
 [
   "tired",
