@@ -1,4 +1,4 @@
-vexport const WORDS = [
+export const WORDS = [
   "human",
   "rights",
   "freedom",
