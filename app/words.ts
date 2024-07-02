@@ -39,6 +39,26 @@ export const GAMES = [
   "bright"
 ],
 [
+  "ghost",
+  "rainbow",
+  "words",
+  "cute",
+  "blocks",
+  "colorful",
+  "wave",
+  "fox",
+  "surf",
+  "beach",
+  "playing",
+  "onchain",
+  "fun",
+  "ball",
+  "contrast",
+  "smooth",
+  "peace",
+  "bright"
+],
+[
   "tired",
   "game",
   "words",
