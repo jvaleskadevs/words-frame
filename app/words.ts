@@ -19,13 +19,24 @@ export const WORDS = [
 
 export const GAMES = [
 [
-  "sorry",
-  "I",
-  "know",
-  "what",
-  "you",
-  "are",
-  "doing"
+  "ghost",
+  "rainbow",
+  "words",
+  "cute",
+  "blocks",
+  "colorful",
+  "wave",
+  "fox",
+  "surf",
+  "beach",
+  "playing",
+  "onchain",
+  "fun",
+  "ball",
+  "contrast",
+  "smooth",
+  "peace",
+  "bright"
 ],
 [
   "tired",

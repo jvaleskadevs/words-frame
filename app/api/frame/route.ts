@@ -10,7 +10,7 @@ import { fromBytes } from 'viem';
 import { deserializeState } from "../../lib/utils";
 import { URL } from '../../config';
 import { Errors } from '../../errors';
-import { GAMES, TOTAL_GAMES } from '../../lol';
+import { GAMES, TOTAL_GAMES } from '../../words';
 
 init(process.env.NEXT_PUBLIC_AIRSTACK_API_KEY ?? '');
 
