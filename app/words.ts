@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "cyberpunk",
+  "street",
+  "night",
+  "shadows",
+  "force",
+  "steel",
+  "neon",
+  "fox",
+  "fearless",
+  "hearth",
+  "fight",
+  "mission",
+  "bold",
+  "tight",
+  "strong",
+  "hope",
+  "brain",
+  "shining"
+],
+[
   "ghost",
   "rainbow",
   "words",
