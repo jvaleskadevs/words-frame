@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "ice",
+  "powerful",
+  "beams",
+  "explosion",
+  "diamond",
+  "crystal",
+  "machine",
+  "purple",
+  "dramatic",
+  "fire",
+  "scene",
+  "aura",
+  "rainbow",
+  "forge",
+  "gem",
+  "magic",
+  "ambient",
+  "cinematic"
+],
+[
   "cyberpunk",
   "street",
   "night",
