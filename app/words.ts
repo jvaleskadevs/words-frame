@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "cosmic",
+  "stadium",
+  "celestial",
+  "ominously",
+  "foundations",
+  "spectacle",
+  "loom",
+  "erupts",
+  "tremble",
+  "anomaly",
+  "crescendo",
+  "pulsating",
+  "quake",
+  "venue",
+  "fans",
+  "glow",
+  "ethereal",
+  "roar"
+],
+[
   "ice",
   "powerful",
   "beams",
