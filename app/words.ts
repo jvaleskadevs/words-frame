@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "culture",
+  "mix",
+  "depicting",
+  "variety",
+  "diversity",
+  "respect",
+  "humankind",
+  "coexistence",
+  "custom",
+  "poster",
+  "rainbow",
+  "style",
+  "color",
+  "progress",
+  "fun",
+  "full",
+  "contrast",
+  "peace"
+],
+[
   "cosmic",
   "stadium",
   "celestial",
