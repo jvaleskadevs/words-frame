@@ -19,6 +19,26 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "hologram",
+  "projection",
+  "cityscape",
+  "threed",
+  "street",
+  "screen",
+  "concert",
+  "display",
+  "colors",
+  "virtual",
+  "fireworks",
+  "immersing",
+  "futuristic",
+  "climax",
+  "experience",
+  "interactive",
+  "holographic",
+  "neon"
+],
+[
   "culture",
   "mix",
   "depicting",
