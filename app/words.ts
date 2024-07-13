@@ -19,6 +19,24 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "mint",
+  "participate",
+  "onchain",
+  "experience",
+  "game",
+  "summer",
+  "base",
+  "everyone",
+  "wave",
+  "earn",
+  "fun",
+  "join",
+  "collect",
+  "badge",
+  "time",
+  "art"
+],
+[
   "heat",
   "sun",
   "hot",
