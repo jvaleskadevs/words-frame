@@ -19,6 +19,22 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "england",
+  "spain",
+  "eurocup",
+  "final",
+  "football",
+  "berlin",
+  "referee",
+  "stadium",
+  "ball",
+  "fans",
+  "goal",
+  "grass",
+  "players",
+  "whilst"
+],
+[
   "mint",
   "participate",
   "onchain",
