@@ -19,6 +19,21 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "connect",
+  "connect",
+  "recast",
+  "context",
+  "reply",
+  "channels",
+  "converse",
+  "trending",
+  "stance",
+  "engage",
+  "reach",
+  "audience",
+  "though"
+],
+[
   "england",
   "spain",
   "eurocup",
