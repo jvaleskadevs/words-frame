@@ -19,6 +19,18 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "short",
+  "before",
+  "gn",
+  "you",
+  "blockmates",
+  "game",
+  "sleep",
+  "love",
+  "all",
+  "hat"
+],
+[
   "connect",
   "connect",
   "recast",
