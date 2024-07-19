@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "music",
+  "sports",
+  "rap",
+  "charity",
+  "feed",
+  "army",
+  "science",
+  "raw",
+  "children",
+  "shaolin",
+  "donation",
+  "future"
+],
+[
   "moshi",
   "speedtracer",
   "aerodrome",
