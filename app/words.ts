@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "winter",
+  "mrmiggles",
+  "songbirdz",
+  "onchainomics",
+  "super",
+  "builders",
+  "waveform",
+  "argentina",
+  "genesis",
+  "olympic",
+  "based",
+  "coop"
+],
+[
   "music",
   "sports",
   "rap",
