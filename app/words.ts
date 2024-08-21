@@ -19,11 +19,25 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "when",
+  "den",
+  "hero",
+  "wide",
+  "wise",
+  "sword",
+  "rose",
+  "weird",
+  "iron",
+  "side",
+  "red",
+  "own"
+],
+[
   "atari",
   "breakout",
   "onchain",
   "summer",
-  "blocks ",
+  "blocks",
   "classic",
   "blockmate",
   "playing",
