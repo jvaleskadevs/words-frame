@@ -38,7 +38,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 
   let image = '';
   let isResolving = false;
-  if (action?.buttonIndex === 2) {
+  if (action?.buttonIndex === 1) {
     const text = fromBytes(action?.inputText, 'string').toLowerCase();
     if (text) { 
       if (GAMES[game].includes(text)) {
@@ -51,7 +51,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     } else {
       image = `/game_${game}.jpg`;
     }
-  } else if (action?.buttonIndex === 1) {
+  } else if (action?.buttonIndex === 2) {
     game = game === 0 ? 0 : game - 1;
     words = [];
     image = `/game_${game}.jpg`;

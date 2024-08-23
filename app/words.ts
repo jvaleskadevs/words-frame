@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "blocks",
+  "art",
+  "ninja",
+  "community",
+  "colorful",
+  "creation",
+  "drawer",
+  "style",
+  "building",
+  "together",
+  "experience",
+  "fun"
+],
+[
   "when",
   "den",
   "hero",

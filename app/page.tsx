@@ -4,18 +4,12 @@ import { URL } from './config';
 
 const title = 'Words Game';
 const description = 'Words Game by J.';
-const image = `${URL}/game_71.jpg`;
+const image = `${URL}/game_72.jpg`;
 
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Previous ⏪️'
-    },
-    {
       label: 'Check word 🔎️'
-    },
-    {
-      label: 'Next ⏩️'
     }
   ],
   image: { 
