@@ -66,13 +66,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   return new NextResponse(getFrameHtmlResponse({
     buttons: [
       {
-        label: 'Previous ⏪️'
-      },
-      {
         label: !isResolving ? 'Check word 🔎️' : 'Back 🔙️'
-      },
-      {
-        label: 'Next ⏩️'
       }
     ],
     image: { 
