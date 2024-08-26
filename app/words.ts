@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "puzzle",
+  "words",
+  "game",
+  "detective",
+  "search",
+  "skills",
+  "tip",
+  "degen",
+  "hat",
+  "msytery",
+  "enigma",
+  "solve"
+],
+[
   "blocks",
   "art",
   "ninja",
