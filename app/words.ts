@@ -33,6 +33,20 @@ export const GAMES = [
   "future"
 ],
 [
+  "end",
+  "back",
+  "september",
+  "summer",
+  "build",
+  "hard",
+  "time",
+  "again",
+  "ready",
+  "game",
+  "frame",
+  "future"
+],
+[
   "puzzle",
   "words",
   "game",
