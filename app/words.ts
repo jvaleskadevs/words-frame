@@ -19,18 +19,18 @@ export const WORDS = [
 
 export const GAMES = [
 [
-  "end",
-  "back",
-  "september",
-  "summer",
-  "build",
-  "hard",
-  "time",
-  "again",
-  "ready",
-  "game",
-  "frame",
-  "future"
+  "pain",
+  "joke",
+  "cry",
+  "laugh",
+  "shadow",
+  "emotion",
+  "detector",
+  "smile",
+  "dance",
+  "hope",
+  "human",
+  "fake"
 ],
 [
   "end",
