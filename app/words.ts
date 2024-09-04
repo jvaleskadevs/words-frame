@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "football",
+  "training",
+  "team",
+  "goal",
+  "season",
+  "sport",
+  "first",
+  "walk",
+  "completed",
+  "peaceful",
+  "intense",
+  "stadium"
+],
+[
   "pain",
   "joke",
   "cry",
