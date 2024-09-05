@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "art",
+  "political",
+  "chemistry",
+  "history",
+  "theather",
+  "physics",
+  "rennaisance",
+  "music",
+  "science",
+  "natural",
+  "geography",
+  "humanism"
+],
+[
   "football",
   "training",
   "team",
