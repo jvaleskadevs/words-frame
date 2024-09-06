@@ -19,6 +19,25 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "examples",
+  "tips",
+  "learning",
+  "resources",
+  "assets",
+  "workflow",
+  "challenges",
+  "knowledge",
+  "free",
+  "sharing",
+  "community",
+  "creation",
+  "tutorial",
+  "video",
+  "game",
+  "logic",
+  "design"
+],
+[
   "art",
   "political",
   "chemistry",
