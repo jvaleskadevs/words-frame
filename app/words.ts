@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "degen",
+  "font",
+  "weekend",
+  "thommy",
+  "hospital",
+  "hat",
+  "melon",
+  "top",
+  "shot",
+  "shelby",
+  "printer",
+  "cast"
+],
+[
   "examples",
   "tips",
   "learning",
