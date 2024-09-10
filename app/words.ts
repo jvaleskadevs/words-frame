@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "degen",
+  "ham",
+  "obg",
+  "enjoy",
+  "based",
+  "brainlet",
+  "moxie",
+  "wild",
+  "higher",
+  "aero",
+  "miggles",
+  "wake"
+],
+[
   "extreme",
   "car",
   "random",
