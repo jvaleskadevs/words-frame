@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "cipher",
+  "decipher",
+  "decryption",
+  "skill",
+  "crack",
+  "hidden",
+  "code",
+  "encryption",
+  "detective",
+  "code",
+  "clue",
+  "secret"
+],
+[
   "degen",
   "ham",
   "obg",
