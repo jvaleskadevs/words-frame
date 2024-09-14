@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "batman",
+  "batmobile",
+  "kryptonite",
+  "toxines",
+  "batsuit",
+  "joker",
+  "batcave",
+  "penny",
+  "alfred",
+  "tools",
+  "cash",
+  "giant"
+],
+[
   "cipher",
   "decipher",
   "decryption",
