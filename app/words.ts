@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "peace",
+  "small",
+  "account",
+  "together",
+  "spam",
+  "idea",
+  "grow",
+  "big",
+  "farcaster",
+  "risk",
+  "alternative",
+  "fair"
+],
+[
   "open",
   "builder",
   "scout",
