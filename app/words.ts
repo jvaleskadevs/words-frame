@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "channel",
+  "news",
+  "ban",
+  "shelby",
+  "vigilant",
+  "melon",
+  "membership",
+  "soft",
+  "moderator",
+  "update",
+  "report",
+  "previewing"
+],
+[
   "peace",
   "small",
   "account",
