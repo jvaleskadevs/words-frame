@@ -19,6 +19,23 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "cave",
+  "secret",
+  "farconita",
+  "discovery",
+  "travel",
+  "glowing",
+  "device",
+  "purple",
+  "chamber",
+  "climb",
+  "february",
+  "time",
+  "machine",
+  "energy",
+  "base"
+],
+[
   "channel",
   "news",
   "ban",
