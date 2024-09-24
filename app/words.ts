@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "rose",
+  "smell",
+  "taste",
+  "feel",
+  "passion",
+  "name",
+  "family",
+  "touch",
+  "love",
+  "enjoy",
+  "life",
+  "friends"
+],
+[
   "cave",
   "secret",
   "farconita",
