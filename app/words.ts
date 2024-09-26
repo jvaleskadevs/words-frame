@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "avatar",
+  "thread",
+  "meme",
+  "moderator",
+  "emoji",
+  "trending",
+  "upvote",
+  "channel",
+  "member",
+  "profile",
+  "user",
+  "bot"
+],
+[
   "rose",
   "smell",
   "taste",
