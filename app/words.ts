@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "assigner",
+  "game",
+  "blocker",
+  "token",
+  "block",
+  "arch",
+  "distributor",
+  "rewards",
+  "points",
+  "earn",
+  "assembler",
+  "hat"
+],
+[
   "season",
   "changes",
   "back",
