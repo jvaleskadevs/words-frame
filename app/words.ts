@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "blue",
+  "purple",
+  "lile",
+  "rainbow",
+  "indigo",
+  "gold",
+  "red",
+  "violet",
+  "black",
+  "green",
+  "silver",
+  "orange"
+],
+[
   "assigner",
   "game",
   "blocker",
