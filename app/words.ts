@@ -19,18 +19,18 @@ export const WORDS = [
 
 export const GAMES = [
 [
-  "blue",
-  "purple",
-  "lile",
-  "rainbow",
-  "indigo",
-  "gold",
-  "red",
-  "violet",
-  "black",
-  "green",
-  "silver",
-  "orange"
+  "coinbase",
+  "hat",
+  "based",
+  "tomorrow",
+  "stays",
+  "degen",
+  "news",
+  "happy",
+  "on",
+  "day",
+  "listing",
+  "breaking"
 ],
 [
   "assigner",
