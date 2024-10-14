@@ -33,6 +33,20 @@ export const GAMES = [
   "breaking"
 ],
 [
+  "blue",
+  "purple",
+  "lile",
+  "rainbow",
+  "indigo",
+  "gold",
+  "red",
+  "violet",
+  "black",
+  "green",
+  "silver",
+  "orange"
+],
+[
   "assigner",
   "game",
   "blocker",
