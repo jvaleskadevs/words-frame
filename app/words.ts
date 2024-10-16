@@ -19,18 +19,18 @@ export const WORDS = [
 
 export const GAMES = [
 [
-  "summer",
-  "spring",
-  "seasons",
-  "month",
-  "second",
-  "weather",
-  "winter",
-  "autumn",
-  "year",
-  "day",
-  "time",
-  "flow"
+  "fly",
+  "convert",
+  "land",
+  "moon",
+  "purple",
+  "aura",
+  "dry",
+  "colorful",
+  "fairy",
+  "green",
+  "magic",
+  "painting"
 ],
 [
   "coinbase",
