@@ -33,6 +33,20 @@ export const GAMES = [
   "painting"
 ],
 [
+  "summer",
+  "spring",
+  "seasons",
+  "month",
+  "second",
+  "weather",
+  "winter",
+  "autumn",
+  "year",
+  "day",
+  "time",
+  "flow"
+],
+[
   "coinbase",
   "hat",
   "based",
