@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "artificial",
+  "computer",
+  "tool",
+  "machine",
+  "code",
+  "usage",
+  "agent",
+  "desktop",
+  "future",
+  "human",
+  "training",
+  "vinicius"
+],
+[
   "higher",
   "together",
   "farcave",
