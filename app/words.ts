@@ -19,6 +19,28 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "launch",
+  "agent",
+  "community",
+  "premier",
+  "teams",
+  "manager",
+  "collect",
+  "mvp",
+  "save",
+  "pass",
+  "aftermatch",
+  "games",
+  "football",
+  "autonomous",
+  "liga",
+  "league",
+  "players",
+  "share",
+  "goal",
+  "kick"
+],
+[
   "today",
   "words",
   "message",
