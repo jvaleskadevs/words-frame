@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "peace",
+  "respect",
+  "solidarity",
+  "best",
+  "canvas",
+  "together",
+  "world",
+  "love",
+  "humanity",
+  "colors",
+  "panting",
+  "life"
+],
+[
   "launch",
   "agent",
   "community",
