@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "natural",
+  "disaster",
+  "valencia",
+  "floods",
+  "help",
+  "human",
+  "solidarity",
+  "people",
+  "collaboration",
+  "climate",
+  "mud",
+  "clean"
+],
+[
   "yes",
   "question",
   "agent",
