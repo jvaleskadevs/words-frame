@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "artificial",
+  "human",
+  "machine",
+  "crypto",
+  "future",
+  "permissionless",
+  "freedom",
+  "people",
+  "open",
+  "fun",
+  "onchain",
+  "build"
+],
+[
   "natural",
   "disaster",
   "valencia",
