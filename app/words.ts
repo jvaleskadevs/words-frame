@@ -33,6 +33,20 @@ export const GAMES = [
   "simple"
 ],
 [
+  "deploy",
+  "mechanism",
+  "night",
+  "tomorrow",
+  "burn",
+  "balance",
+  "slash",
+  "build",
+  "frame",
+  "deposit",
+  "mint",
+  "simple"
+],
+[
   "degen",
   "all",
   "time",
