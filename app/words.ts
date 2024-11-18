@@ -19,6 +19,21 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "health",
+  "wealth",
+  "life",
+  "exercise",
+  "run",
+  "learn",
+  "study",
+  "health",
+  "yourself",
+  "better",
+  "sport",
+  "habit",
+  "read"
+,
+[
   "deploy",
   "mechanism",
   "night",
