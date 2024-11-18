@@ -32,7 +32,7 @@ export const GAMES = [
   "sport",
   "habit",
   "read"
-,
+],
 [
   "deploy",
   "mechanism",
