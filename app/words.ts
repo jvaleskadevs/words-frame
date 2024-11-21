@@ -19,6 +19,21 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "anon",
+  "super",
+  "mega",
+  "true",
+  "wars",
+  "dog",
+  "clanker",
+  "bits",
+  "wow",
+  "hat",
+  "mask",
+  "game",
+  "social"
+],
+[
   "hard",
   "build",
   "features",
