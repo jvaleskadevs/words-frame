@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "squirrel",
+  "jam",
+  "together",
+  "reward",
+  "community",
+  "members",
+  "claim",
+  "frame",
+  "farcaster",
+  "onchain",
+  "blocks",
+  "cute"
+],
+[
   "anon",
   "super",
   "mega",
