@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "nothing",
+  "complex",
+  "puzzle",
+  "for",
+  "experts",
+  "masters",
+  "detectives",
+  "track",
+  "hint",
+  "clue",
+  "no",
+  "oba"
+],
+[
   "hat",
   "stays",
   "on",
