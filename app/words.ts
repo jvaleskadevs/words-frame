@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "agents",
+  "clankers",
+  "anons",
+  "accounts",
+  "humans",
+  "farcaster",
+  "meta",
+  "frames",
+  "advent",
+  "degen",
+  "based",
+  "future"
+],
+[
   "nothing",
   "complex",
   "puzzle",
