@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "red",
+  "candle",
+  "hold",
+  "diamond",
+  "green",
+  "burn",
+  "earn",
+  "chart",
+  "buy",
+  "dip",
+  "panic",
+  "sell"
+],
+[
   "machine",
   "warping",
   "degen",
