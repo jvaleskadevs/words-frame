@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "hello",
+  "kiss",
+  "goodbye",
+  "handshake",
+  "introduce",
+  "meet",
+  "friend",
+  "chat",
+  "name",
+  "age",
+  "old",
+  "young"
+],
+[
   "relax",
   "chill",
   "ambient",
