@@ -1923,7 +1923,7 @@ export const GAMES = [
   "test",
   "words",
   "something"
-], // 0
+],
 [
   "human",
   "rights",
@@ -1955,7 +1955,7 @@ export const GAMES = [
   "film",
   "animation",
   "print"
-], // 0
+],
 [
   "public",
   "society",
@@ -1978,7 +1978,7 @@ export const GAMES = [
   "peace",
   "collaboration",
   "decentralization"
-], // 0
+],
 [
   "pizza",
   "pixel",
@@ -1990,7 +1990,7 @@ export const GAMES = [
   "special",
   "power",
   "fire"
-], // 0
+],
 [
   "onchain",
   "based",
@@ -2002,7 +2002,7 @@ export const GAMES = [
   "amazing",
   "blockchain",
   "party"
-], // 0
+],
 [
   "magician",
   "sorcerer",
@@ -2014,7 +2014,7 @@ export const GAMES = [
   "witch",
   "warlock",
   "alchemist"
-], // 0
+],
 [
   "hugs",
   "artwork",
@@ -2026,7 +2026,7 @@ export const GAMES = [
   "symbolic",
   "nft",
   "store"
-], // 1
+],
 [
   "culture",
   "art",
@@ -2038,7 +2038,7 @@ export const GAMES = [
   "events",
   "social",
   "gaming"
-], // 0
+],
 [
   "original",
   "creation",
