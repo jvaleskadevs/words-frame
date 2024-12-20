@@ -1,7 +1,7 @@
 {
-  "name": "jframe",
+  "name": "words-frame",
   "version": "1.0.0",
-  "description": "Basic Frame by J.",
+  "description": "Words Game Frame by J.",
   "author": "@j-valeska",
   "license": "MIT",
   "private": true,
