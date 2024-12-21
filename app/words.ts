@@ -19,6 +19,20 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "holydays",
+  "festivity",
+  "enjoy",
+  "time",
+  "family",
+  "friends",
+  "chill",
+  "fun",
+  "gifts",
+  "love",
+  "solidarity",
+  "happy"
+],
+[
   "hello",
   "kiss",
   "goodbye",
