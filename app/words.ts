@@ -19,6 +19,29 @@ export const WORDS = [
 
 export const GAMES = [
 [
+  "agent",
+  "anon",
+  "art",
+  "back",
+  "big",
+  "blockmate",
+  "build",
+  "castle",
+  "degen",
+  "farcaster",
+  "frames",
+  "fun",
+  "game",
+  "gdupi",
+  "hackathon",
+  "learning",
+  "onchain",
+  "rewards",
+  "super",
+  "today",
+  "words"
+],
+[
   "best",
   "blockmates",
   "build",
